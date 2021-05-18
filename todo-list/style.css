@@ -1,0 +1,29 @@
+body{
+    background-color: #e5f1f5;
+}
+
+.view {
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 500px;
+    background-color: white;
+}
+
+.list .list-item {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.buttons {
+    text-align: right;
+}
+
+input {
+    width: 150%;
+
+}
+.input-btn{
+    margin-top:20px;
+}

@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.view {
+    width: 350px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid #f1f0f0;
+    font-family: Arial;
+
+}
+.view .navbar{
+    background-color: #f7f6f6;
+    padding: 20px;
+}
+.view .navbar h2{
+    margin-top: 0;
+}
+
+.view .nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.view .navbar .nav .inputName{
+    padding-left: 10px;
+}
+
+.view .btn-add {
+    background-color:#4e7fde;
+    border-radius: 5px;
+    height: 28px;
+    border:none;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.view input {
+    background-color: #dedede;
+    border-color: #dedede;
+    border-radius: 3px;
+    height: 25px;
+    width: 100%;
+    border:none;
+
+}
+
+.view .phone-list .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view .phone-list .item .avatar{
+    margin-right: 15px;
+}
+
+.view .phone-list .item .avatar img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.view .phone-list .item {
+    border-bottom: 1px solid #f1f0f0;
+}
+
+.action .delete {
+    background-color:#e61f1f;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+h6{
+    background-color: #ec5151;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-list{
+    padding: 10px;
+}
+.name, .phone{
+    display: block;
+    width: 100%;
+}
+.number{
+    color: #8e8d8d;
+    font-size: 12px;
+
+}
+.name{
+    color: #393939;
+    margin-bottom: 10px;
+}
+.avatars img{
+    width: 45px;
+    height: 45px;
+    float: left;
+   margin-right: 5px;
+
+}
+
+.avatars img.selected{
+    border: 1px solid green;
+}

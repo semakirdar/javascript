@@ -1,0 +1,25 @@
+body{
+    background-color: #1a1e21!important;
+}
+
+.card{
+    background-color: white !important;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.card .card-body h4{
+    padding-bottom: 25px;
+    text-align: center;
+}
+.card-body .results h6{
+    text-align: center;
+    border-top:1px solid #eee9e9;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.card-body .results input{
+    background-color: #e9ecef;
+}
+.card .card-body .range{
+    padding-bottom: 30px;
+}

@@ -1,0 +1,6 @@
+.fav-icon{
+    color: #000;
+}
+.fav-icon.active{
+    color:red;
+}

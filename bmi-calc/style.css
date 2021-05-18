@@ -1,0 +1,31 @@
+body{
+font-family: "Arial Black";
+}
+.view .result .btn-calculate{
+    background-color: #01c6b2;
+    border-color: #01c6b2;
+    width: 140px;
+    height: 55px;
+    border-radius: 10px;
+    color: #065758;
+
+}
+.view{
+    border:1px solid grey;
+
+    padding: 60px;
+}
+.view .result{
+    padding-top: 30px;
+}
+.view .text{
+    font-size: 28px;
+    color: #065758;
+}
+.view .symbol{
+    margin-left: 20px;
+    color: #bbbfc8;
+}
+.view .result h3{
+    color:grey;
+}
