@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>currency converter</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="plugins/fontawesome/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="view">
+        <div class="text">
+            <i class="fas fa-cogs"></i>
+            <h1>Exchange Rate Calculator</h1>
+            <h4>Choose the currency and the amounts to get the exchange rate</h4>
+        </div>
+        <div class="row">
+            <div class="column">
+                <label>TRY</label>
+            </div>
+
+            <div class="column">
+                <input id="try-input" placeholder="Değer giriniz">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button id="button-swap" class="btn-swap">SWAP</button>
+            </div>
+            <div class="column">
+                <p id="info"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <select id="select" class="form-select" aria-label="Disabled select example">
+                    <option>Open this select menu</option>
+                    <option value="EUR">EUR</option>
+                    <option value="USD" selected>ABD DOLARI</option>
+                    <option value="STR">STERLİN</option>
+                </select>
+            </div>
+            <div class="column">
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

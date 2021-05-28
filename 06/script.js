@@ -17,7 +17,7 @@ buttonPrev.addEventListener('click', function () {
 });
 buttonNext.addEventListener('click', function () {
 
-    if (counter = images.length - 1)
+    if (counter ==images.length - 1)
 
         counter = 0;
     else

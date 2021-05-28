@@ -1,0 +1,41 @@
+.view {
+    width: 500px;
+    height: 800px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+.view .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view .row .column {
+    padding: 20px;
+}
+
+.view .text {
+    text-align: center;
+}
+
+.view .text i {
+    font-size: 60px;
+    color: #62d0ab;
+}
+
+.view .text h1 {
+    color: #62d0ab;
+}
+
+.view .row .btn-swap {
+    background-color: #62d0ab;
+    border-color: #62d0ab;
+    border-radius: 5px;
+    height: 35px;
+    width: 60px;
+    color: white;
+}
+.view .row .form-select{
+
+}

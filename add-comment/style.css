@@ -1,0 +1,21 @@
+.view {
+    width: 500px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.view .user-name input {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.view .user-comment textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.view .comment-send button{
+    width: 50%;
+    background-color:#038224;
+    border-color: #038224;
+}

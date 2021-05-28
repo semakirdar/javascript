@@ -1,0 +1,91 @@
+.view {
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+
+.view .seats .seat {
+    border: 1px solid #2a2929;
+    width: 30px;
+    height: 30px;
+    background-color: #3b3b3b;
+}
+.view .seats .full{
+    background-color: white;
+
+}
+.view .seats {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view .seats .seat.selected {
+    background-color: aqua;
+    border-color: aqua;
+}
+
+.view select {
+    margin-bottom: 80px;
+}
+
+.view .ticketBuy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view .ticketBuy .films-price {
+    margin-bottom: 80px;
+    margin-left: 50px
+}
+
+.priceText {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.view .seat-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view .seat-info .info-item {
+    border: 1px solid #2a2929;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.view .seat-info .info-item span {
+
+    margin-left: 40px;
+}
+
+.view .seat-info .selected-seat {
+    background-color: aqua;
+    border-color: aqua;
+}
+
+.view .seat-info .seat {
+    background-color: #3b3b3b;
+    border-color: #3b3b3b;;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 65px;
+    padding: 20px;
+}
+
+.information .priceText {
+    padding-top: 0;
+}

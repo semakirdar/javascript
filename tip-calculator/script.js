@@ -2,7 +2,9 @@ let priceInput = document.getElementById('price');
 let percentInput = document.getElementById('percent');
 let total = document.getElementById('total');
 let amount = document.getElementById('amount');
-
+let darkInput=document.getElementById('dark');
+let whiteInput=document.getElementById('light');
+let active;
 
 priceInput.addEventListener('keyup', function () {
    calculate();
@@ -32,3 +34,13 @@ function calculate(){
     }
 
 }
+
+darkInput.addEventListener('click',function (){
+    document.body.classList+=" dark";
+    console.log(dark);
+
+});
+
+whiteInput.addEventListener('click',function (){
+    document.body.classList.remove('dark');
+});

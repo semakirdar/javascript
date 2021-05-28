@@ -1,0 +1,31 @@
+a{
+    color: black!important;
+    text-decoration: none;
+    color: #313030;
+}
+body{
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.tab-menu{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #c5c3c3;
+    margin-top: 50px;
+}
+
+.tab-content-item.active{
+    display: block;
+}
+.tab-content-item{
+    display: none;
+}
+.tab-link.active{
+    color: #001aff !important;
+}
+.tab-content{
+    padding-top: 10px;
+    font-size: 17px;
+}

@@ -1,0 +1,66 @@
+.view {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    position: relative;
+    flex-direction: column;
+}
+
+.view .image img {
+    height: 140px;
+    width: 140px;
+}
+
+.view .image {
+    margin-bottom: 25px;
+}
+
+
+.view .image img {
+    transition: all 0.4s ease;
+
+}
+
+.view .image img:hover {
+    transform: scale(1.1);
+}
+
+.view .point {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.view .buttons {
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mouse img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-right: 20px;
+    transition: all .2s ease;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

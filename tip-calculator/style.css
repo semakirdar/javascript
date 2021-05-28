@@ -1,5 +1,5 @@
 body{
-    background-color: #1a1e21!important;
+    background-color: #efefef!important;
 }
 
 .card{
@@ -22,4 +22,12 @@ body{
 }
 .card .card-body .range{
     padding-bottom: 30px;
+}
+
+body.dark{
+    background-color: #1a1e21 !important;
+}
+body.dark .card{
+    background-color: #242424 !important;
+    color: white!important;
 }
