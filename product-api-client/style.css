@@ -1,0 +1,124 @@
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.view {
+    padding-top: 100px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.detailButton {
+    border: none;
+    display: block;
+    background-color: black;
+    padding: 5px;
+    margin: 0 auto;
+    color: white;
+    width: 100%;
+}
+
+.detailButton:hover {
+    transition: all 0.5s ease;
+    background-color: #616060;
+    cursor: pointer;
+}
+
+.product-detail {
+    display: none;
+}
+
+.productItem img {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.productItem {
+    border: 1px solid #d4d3d3;
+    padding: 30px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.productItem:hover {
+    opacity: 0.8;
+}
+
+.product-detail .detail-img img {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.product-detail {
+    text-align: center;
+    border-radius: 7px;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.product-detail .btnAdd {
+    background-color: green;
+    color: white;
+    padding: 3px;
+    border: none;
+}
+
+.product-detail {
+    border: 1px solid #d4d3d3;
+    padding: 30px;
+}
+
+.commentItem {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.commentItem button{
+    background-color: #ff253a;
+    border:none;
+    color:white;
+}
+.btnPrev{
+    border:none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    float: left;
+}
+.btnPrev:hover{
+    transition: all 0.5s ease;
+    background-color: #616060;
+    cursor: pointer;
+
+}
+.fa-star{
+   color: #eebd02;
+    float: left;
+}
+
+.commentLeft{
+    display: flex;
+    width: 100%;
+}
+
+.commentName{
+    width: auto;
+    margin-right: 10px;
+}
+h4{
+    border-top:1px solid #f3f0f0;
+    padding: 30px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>budget-planner</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="view">
+
+        <div class="price">
+            <div class="budget">
+                budget: <span id="budget"></span>
+            </div>
+            <div class="remaining" >
+                remaining: <span id="remaining"></span>
+            </div>
+        </div>
+        <div id="message"></div>
+        <div class="list">
+        </div>
+
+        <div class="addExpense">
+            <h3>Add Expense</h3>
+            <input id="inputName">
+            <input id="inputCost">
+            <button id="btnSave">SAVE</button>
+            <button id="btnDeleteAll" class="btn-delete-all"> DELETE ALL</button>
+
+
+        </div>
+
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

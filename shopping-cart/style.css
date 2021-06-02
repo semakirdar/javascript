@@ -1,0 +1,21 @@
+.view{
+    width: 800px;
+    margin: 0 auto;
+    margin-top:20px
+}
+.product-item img{
+    width: 140px;
+    height: 140px;
+}
+.shopping-basket i{
+    font-size: 50px;
+    background-color: darkorange;
+    padding: 20px;
+}
+.shopping-basket{
+    float:right;
+}
+.shopping-basket .basketList
+{
+    display: none;
+}

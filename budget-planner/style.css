@@ -1,0 +1,60 @@
+body{
+    font-family: Arial;
+}
+.view{
+
+    width: 500px;
+    margin: 0 auto;
+}
+.price{
+
+}
+.budget{
+    background-color: #efd7b9;
+    padding: 20px;
+    display: inline-block;
+
+}
+.remaining{
+    background-color: #8facec;
+    padding: 20px;
+    display: inline-block;
+    float: right;
+}
+.addExpense{
+    text-align: center;
+    background-color:#fbfaf9;
+    padding: 20px;
+    padding-bottom: 48px;
+}
+.addExpense input{
+    width: 30%;
+    margin-right: 10px;
+}
+.addExpense button{
+    width: 30%;
+    background-color: #176bc5;
+    color:white;
+    border:none
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid  lightgrey;
+    padding: 20px;
+    margin-top: 10px;
+}
+.list-item button{
+    background-color: #d23131;
+    color: white;
+    border:none;
+}
+
+.list{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.btn-delete-all{
+    float: right;
+    background-color: #c23636 !important;
+}

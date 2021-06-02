@@ -2,49 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>phone-book</title>
+    <title>Phone Book</title>
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="plugins/fontawesome/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <div class="view">
 
-        <div class="navbar">
-            <h2>PHONE BOOK</h2>
-            <div class="nav">
-                <div class="nav-item">
-                    <input id="number" placeholder="number">
-                </div>
-                <div class="nav-item inputName">
-                    <input id="name" placeholder="name">
-                </div>
+<div class="view">
 
-            </div>
-            <div class="avatars" id="avatar-img">
-                <img class="avatar" src="images/avatars/1.png">
-                <img class="avatar" src="images/avatars/2.png">
-                <img class="avatar" src="images/avatars/3.png">
-                <img class="avatar" src="images/avatars/4.png">
-                <img class="avatar" src="images/avatars/5.png">
-                <img class="avatar" src="images/avatars/6.png">
-
-            </div>
-            <div>
-                <button class="btn-add" id="add">ADD</button>
-            </div>
-
-
+    <div class="nav-bar">
+        <div>
+            <i class="fas fa-bars" id="iconBars"></i>
         </div>
-
-        <div class="phone-list" id="list">
+        <div>
+            MY CONTACTS
         </div>
+        <div>
+            <i class="fas fa-search" id="iconSearch"></i>
+        </div>
+    </div>
 
-        <h6 id="message"></h6>
 
+    <div class="search" id="search">
+        <input id="searchInput">
+        <button id="btn-search">Search</button>
+    </div>
+
+
+    <div>
+        <input id="inputName">
+        <input id="inputPhone">
+        <button id="btn-save" class="btnSave">SAVE</button>
+        <button id="btn-deleteAll">DELETE ALL</button>
+    </div>
+    <div id="error" class="error">
 
     </div>
+    <div id="message" class="message">
+
+    </div>
+
+    <div id="contacts" class="contacts">
+
+    </div>
+
 </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+.view {
+    width: 900px;
+margin: 0 auto;
+}
+body{
+    font-family: Arial;
+}
+
+
+.question-item .answer {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid grey;
+    border-bottom: none;
+}
+
+li:last-child{
+    border-bottom: 1px solid grey;
+}
+
+.answer {
+    padding: 30px;
+    background-color: #fffce2;
+    transition: all .2s ease;
+}
+
+.question{
+    padding: 15px;
+    cursor: pointer;
+}

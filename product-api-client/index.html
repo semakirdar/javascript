@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>product api client</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="plugins/fontawesome/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="view">
+
+        <div id="product-list" class="product-list">
+
+        </div>
+        <div id="product-detail" class="product-detail">
+            <button id="prev" class="btnPrev">BACK</button>
+            <div class="detail-img">
+                <img id="image">
+            </div>
+            <div id="name" class="name"></div>
+            <div id="description" class="description"></div>
+            <h4>YORUMLAR</h4>
+            <div id="error">
+
+            </div>
+            <div id="message">
+
+            </div>
+            <select id="inputRating">
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+
+            <input id="inputName">
+            <input  id="inputComment">
+            <button class="btnAdd" id="addButton" data-target="">Add</button>
+            <div id="comments" class="comments">
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="plugins/fontawesome/js/all.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
